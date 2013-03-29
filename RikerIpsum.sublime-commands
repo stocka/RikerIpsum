@@ -1,0 +1,26 @@
+[
+
+  {
+    "caption": "RikerIpsum: (5) a bit",
+    "command": "riker_ipsum",
+    "args": {"qty": 5 }
+  },
+
+  {
+    "caption": "RikerIpsum: (15) some",
+    "command": "riker_ipsum",
+    "args": {"qty": 15 }
+  },
+
+  {
+    "caption": "RikerIpsum: (30) lots",
+    "command": "riker_ipsum",
+    "args": {"qty": 30 }
+  },
+
+  {
+    "caption": "RikerIpsum: (200) stick shake",
+    "command": "riker_ipsum",
+    "args": {"qty": 200 }
+  }
+]

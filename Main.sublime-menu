@@ -8,14 +8,14 @@
                 "children":
                 [
                     {
-                        "caption":"Lorem Ipsum...",
-                        "mnemonic": "LI",
+                        "caption":"Riker Ipsum...",
+                        "mnemonic": "RI",
                         "children":
                         [
-                            {"command": "lorem_ipsum", "caption": "a bit", "args":{"qty":5}},
-                            {"command": "lorem_ipsum", "caption": "some", "args":{"qty":15}},
-                            {"command": "lorem_ipsum", "caption": "lots", "args":{"qty":30}},
-                            {"command": "lorem_ipsum", "caption": "stick shake", "args":{"qty":200}}
+                            {"command": "riker_ipsum", "caption": "shields up", "args": {"qty":1}},
+                            {"command": "riker_ipsum", "caption": "battle stations", "args":{"qty":5}},
+                            {"command": "riker_ipsum", "caption": "red alert", "args":{"qty":10}},
+                            {"command": "riker_ipsum", "caption": "fire phasers at will", "args":{"qty":20}}
                         ]    
                     }
                 ]
