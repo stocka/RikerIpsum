@@ -18,11 +18,9 @@ class RikerIpsumCommand(sublime_plugin.TextCommand):
   
             # Make sure our lines are loaded
             if not self.linesLoaded:
-                # Find the current directory of this script
-                curDir = os.path.dirname(__file__)
 
                 # Open up the text lines file in the script directory
-                with open(os.path.join(curDir,"rikerlines.txt"), 'r') as f:
+                with open(os.path.join(sublime.packages_path(),"RikerIpsum","rikerlines.txt"), 'r') as f:
                     for line in iter(f):
                         # Strip the line
                         strippedLine = line.strip()
